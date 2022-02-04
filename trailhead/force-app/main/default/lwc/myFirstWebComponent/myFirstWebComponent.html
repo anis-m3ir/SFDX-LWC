@@ -3,7 +3,8 @@
     <div class="slds-m-around_medium">
        <template for:each={contacts} for:item="contact">
           <div key={contact.Id}>
-             {contact.Name}, {contact.Title}
+            
+            <p> {contact.Name}, {contact.Title}</p>
           </div>
        </template>
     </div>
